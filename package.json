@@ -1,0 +1,51 @@
+{
+  "name": "AwesomeProject3",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "rn:help": "react-native --help",
+    "android": "react-native run-android",
+    "android:build": "react-native build-android --mode=release",
+    "ios": "react-native run-ios",
+    "ios:build": "react-native build-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "@sentry/react-native": "^5.12.0",
+    "react": "18.2.0",
+    "react-native": "0.72.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/eslint-config": "^0.72.2",
+    "@react-native/metro-config": "^0.72.11",
+    "@testing-library/webdriverio": "^3.2.1",
+    "@tsconfig/react-native": "^3.0.0",
+    "@types/react": "^18.0.24",
+    "@types/react-test-renderer": "^18.0.0",
+    "@wdio/appium-service": "^8.16.20",
+    "@wdio/cli": "^8.16.20",
+    "@wdio/local-runner": "^8.16.20",
+    "@wdio/mocha-framework": "^8.16.17",
+    "@wdio/spec-reporter": "^8.16.17",
+    "appium-uiautomator2-driver": "^2.29.10",
+    "babel-jest": "^29.2.1",
+    "eslint": "^8.19.0",
+    "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "0.76.8",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "18.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "wdio-wait-for": "^3.0.7",
+    "webdriverio": "^8.16.20"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
